@@ -79,6 +79,9 @@ Page({
    //   在页面展示之后先获取一次数据
     var that = this;
     GetList(that);
+    this.setData({
+        scrollHeight:app.getHeight()
+    });
     },
   refresh:function(event){
     //   该方法绑定了页面滑动到顶部的事件，然后做上拉刷新

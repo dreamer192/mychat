@@ -12,17 +12,14 @@
                 </swiper-item>
             </block>
         </swiper>
-
-
         <!--标题分类-->
     <view class="nav">
 
     <block wx:for-items="{{navs}}" wx:key="item.id"> 
     <view class="boxView">
-    <navigator url="../campaignList/campaignList" >
+    <navigator url="../campaignList/campaignList" open-type="navigate">
       <view data-type="{{item.text}}"> 
         <image src="{{item.image}}"/>
-       
       </view>
        <text>{{item.text}}</text>
     </navigator>
