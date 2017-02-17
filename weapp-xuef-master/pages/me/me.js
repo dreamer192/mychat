@@ -9,8 +9,7 @@ Page({
     
 picture: "../../image/0414couser.png",
 name: "Wong",
-       
-
+      
 // 1.菜单栏数据
   items:[
       {
