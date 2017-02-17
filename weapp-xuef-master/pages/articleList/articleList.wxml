@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="news-item-container">
+    <block wx:for="{{list}}" wx:for-index="id" wx:key="item.id">
+      <text wx:if="{{item.header}}" class="sub-title">{{item.header}}</text>
+      <navigator wx:else url="../detail/detail?id={{item.id}}">
+        <view class="news-item" >
+          <view class="news-item-left">
+            <text class="news-item-title">{{item.title}}</text>
+          </view>
+          
+        </view>
+      </navigator>
+    </block>
+    <button type="primary" class="load-btn"  loading="{{loading}}" plain="{{plain}}" bindtap="loadMore"> 更多 </button>
+  </view>
+  
+</view>

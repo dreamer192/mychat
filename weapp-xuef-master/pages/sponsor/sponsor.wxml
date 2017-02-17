@@ -1,0 +1,77 @@
+<view class="contain"> 
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" 
+        class="list" bindscrolltolower="bindDownLoad" bindscroll="scroll">
+<view class="banner">
+<image class="banner-img" src="{{imgUrl}}"/>
+</view>
+    <view class="titlecomment">
+    <block> 
+    <view class="boxView"> 
+      <text class="title">{{title}}</text>
+      <text class="other">{{schoolcoment}}{{schoolcoment}}{{schoolcoment}}</text>
+    </view>
+    </block>
+    </view>
+
+<navigator url="../campaignList/campaignList?id={{item.id}}" open-type="redirect">
+    <!--课程cell-->
+     <view class="item" >
+
+<!--图片-->
+<view><text>所有活动</text></view>
+<block wx:for-items="{{[0,0,0]}}" wx:key="item.id"> 
+      <view  class="item-left"> 
+       <image class="courseImage" src="{{xingzhongxinUrl}}" />
+      </view>
+       
+</block>
+     </view>
+       
+    </navigator>
+    <navigator url="../campaign/campaign?id={{item.id}}">
+    <!--课程cell-->
+     <view class="item" >
+<view><text>所有课程</text></view>
+<!--图片-->
+<block wx:for-items="{{[0,0,0]}}" wx:key="item.id"> 
+      <view  class="item-left"> 
+       <image class="courseImage" src="{{xingzhongxinUrl}}" />
+      </view>
+       
+</block>
+     </view>
+       
+    </navigator>
+  <navigator url="../campaign/campaign?id={{item.id}}">
+    <!--课程cell-->
+     <view class="item" >
+<view><text>团队实力</text></view>
+<!--图片-->
+<block wx:for-items="{{[0,0,0]}}" wx:key="item.id"> 
+      <view  class="item-left"> 
+       <image class="courseImage" src="{{xingzhongxinUrl}}" />
+      </view>
+       
+</block>
+     </view>
+       
+    </navigator>
+      <view class="top">
+
+    <view class="commList"> 
+      <text hidden="{{toptoshow}}" class="listText">向上拖动查看活动举办商详情</text>
+    </view>
+    </view>
+    <view class="manycomm">
+           <text hidden="{{commenthidden}}"> 所获荣誉：\n
+           {{schoolcoment}}</text>
+    </view>
+        </scroll-view>
+     <view class="body-view">
+        <loading hidden="{{hidden}}" bindchange="loadingChange">
+            加载中...
+        </loading>
+    </view>
+
+</view>
+

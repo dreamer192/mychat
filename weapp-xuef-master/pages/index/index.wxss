@@ -1,0 +1,159 @@
+/*容器*/
+.contain{
+
+  height: 100%;
+}
+
+/*轮播控件*/
+.swpier{
+  width: 100%;
+  height: 120px; 
+}
+
+/**index.wxss**/
+.slide-image{
+  width: 100%;
+  height: 150px;
+}
+
+/*导航课程栏*/
+.nav{
+  width:100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+/*格子*/
+.boxView{
+display: flex;
+flex: 1;
+flex-direction:column;
+ align-items: center;
+}
+
+/*格子图片*/
+.boxView image{
+  margin-top: 10px;
+  width: 36px;
+  height: 36px;
+ 
+}
+
+/*格子文字*/
+.boxView text{
+  font-family: '楷体';
+  font-size: 15px;
+  margin-left: 3px; 
+  margin-top: 5px; 
+}
+
+/*推荐活动*/
+.recommendCourseView{
+  border-bottom:1px solid #EFEDED;
+  margin-top: 5px;
+  background: white;
+  height: 35px;
+}
+.recommendCourseView image{
+  margin-top: 7px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+/*推荐课程文字*/
+.recommendCourseView .courseText{
+font-family: '楷体';
+  font-size: 16px;
+   margin-left: 5px;
+   line-height: 40px;
+}
+
+/*描述*/
+.recommendCourseView .desText{
+font-family: '楷体';
+  font-size: 13px;
+  margin-left: 10px;
+     line-height: 40px;
+     color: lightgray;
+}
+
+/*课程cell*/
+.item{
+ height: 80px;
+ font-family: '楷体';
+   display: flex;
+   flex-direction: row;
+   padding: 5px 0 5px 5px;
+   /*y轴对齐方式*/
+  /*align-items: center; */
+  /*x轴对齐方式*/
+  /*justify-content: space-between;*/ 
+  background:#F7F6F6;
+  border-bottom:1px solid #EFEDED;
+  font-size: 18px;
+}
+
+/*图片背景View*/
+.item-left{
+  width: 110px;
+  height: 70px;
+}
+
+/*课程图片*/
+.courseImage{
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+/*右边item*/
+.item-right{
+  margin-left: 10px;
+  flex: 1; /*占满两侧空白部分*/
+}
+
+/*右边item的view*/
+.item-right view{
+  margin: 3px 0 0 2px;
+}
+
+/*时间*/
+.timeText{
+
+ font-size: 11px;
+   color: darkgray;
+
+}
+
+/*年级*/
+.gradeText{
+  font-size: 11px;
+   color: darkgray;
+
+}
+/*价格*/
+.priceText{
+
+  font-size: 13px;
+  color: #31F07D;
+  float: right;
+  padding-right: 10px;
+}
+.guanzhuText{
+
+  font-size: 10px;
+  color: darkgray;
+  float: left;
+  padding-left: 8px;
+  padding-top:10px;
+}
+.guanzhu{
+  margin-top: 1px;
+}
+.guanzhu image{
+  float: left;
+  width:30px;
+  height: 30px;
+}

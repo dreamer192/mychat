@@ -1,0 +1,244 @@
+/*容器*/
+.contain{
+
+  height: 100%;
+}
+
+/*轮播控件*/
+.banner{
+  width: 100%;
+  height: 200px; 
+}
+.banner-img{
+  width: 100%;
+  height: 200px;
+}
+
+/*导航课程栏*/
+.titlecomment{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  background: white;
+   border-bottom:1px solid #EFEDED;
+}
+.boxView .other{
+  margin-left:5px;
+}
+.titlelink{
+  width:100%;
+  height: 95px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+border-bottom:1px solid #EFEDED;
+padding-bottom: 5px;
+}
+.company{
+  width:100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+padding-bottom: 5px;
+margin-top: 10px;
+}
+.iconleft{
+  color: #666666;
+  margin-left: 15px;
+   font-family: '楷体';
+  font-size: 15px;
+}
+.iconbottom{
+  color: #666666;
+   margin-left: 15px;
+   font-family: '楷体';
+  font-size: 15px;
+  margin-bottom:10px;
+}
+/*格子*/
+.boxView{
+display: flex;
+flex: 1;
+flex-direction:column;
+ align-items: left;
+}
+
+
+/*格子文字*/
+.boxView .title{
+  font-family: '楷体';
+  font-size: 23px;
+  margin-top: 10px; 
+}
+.boxView .other{
+  font-family: '楷体';
+  font-size: 13px;
+  margin-top: 5px; 
+  color: darkgray;
+}
+
+/*推荐活动*/
+.recommendCourseView{
+  border-bottom:1px solid #EFEDED;
+  margin-top: 5px;
+  background: white;
+  height: 35px;
+}
+.icon image{
+  margin-top: 7px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  border-bottom:0px;
+}
+
+
+
+/*推荐课程文字*/
+.recommendCourseView .courseText{
+font-family: '楷体';
+  font-size: 16px;
+   margin-left: 5px;
+   line-height: 40px;
+}
+
+/*描述*/
+.recommendCourseView .desText{
+font-family: '楷体';
+  font-size: 13px;
+  margin-left: 10px;
+     line-height: 40px;
+     color: lightgray;
+}
+
+/*课程cell*/
+.item{
+  margin-top: 10px;
+ height: 60px;
+ font-family: '楷体';
+   display: flex;
+   flex-direction: row;
+   padding: 5px 5px 5px 5px;
+   /*y轴对齐方式*/
+  /*align-items: center; */
+  /*x轴对齐方式*/
+  /*justify-content: space-between;*/ 
+  background:white;
+}
+
+/*图片背景View*/
+.item-left{
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+/*课程图片*/
+.courseImage{
+  width: 100%;
+  height: 100%;
+}
+
+/*右边item*/
+.item-right{
+  width:100%;
+  margin-left: 10px;
+  flex: 1; /*占满两侧空白部分*/
+}
+
+/*右边item的view*/
+.item-right view{
+  margin: 8px 0 0 5px;
+}
+
+/*时间*/
+.timeText{
+
+ font-size: 13px;
+
+}
+.companycomn{
+margin-top: 1px;
+ font-size: 11px;
+
+}
+
+/*年级*/
+.gradeText{
+  font-size: 11px;
+   color: darkgray;
+
+}
+/*价格*/
+.priceText{
+
+  font-size: 13px;
+  color: burlywood;
+  float: right;
+  padding-right: 10px;
+}
+.centericontop{
+  width: 100%;
+}
+.centericonbottom{
+  width: 100%;
+}
+.centericon image{
+  margin-top: 7px;
+  margin-left: 5px;
+  width: 120px;
+  height: 120px;
+  border-bottom:0px;
+  float: left;
+}
+.centername{
+  float: left;
+  margin-top: 5px;
+}
+.centerconn{
+  float: left;
+  margin-top: 5px;
+}
+.timeView image{
+  width: 10px;
+  height: 10px;
+}
+.timeView .guanzhu{
+  margin-left: 10px;
+  width: 50px;
+  height: 25px;
+}
+.commList{
+display: flex;
+flex: 1;
+flex-direction:column;
+ align-items: center;
+}
+.nav{
+  width:100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  
+}
+.top{
+  margin-top: 3px;
+ align-items: center;
+}
+.commList text {
+  font-family: '楷体';
+  font-size: 18px;
+}
+.manycomm{
+   background: white;
+  display: flex;
+flex: 1;
+flex-direction:column;
+ align-items: left;
+}
+.manycomm text{
+  font-family: '楷体';
+  font-size: 15px;
+}
