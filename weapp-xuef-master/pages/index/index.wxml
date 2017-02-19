@@ -17,7 +17,7 @@
 
     <block wx:for-items="{{navs}}" wx:key="item.id"> 
     <view class="boxView">
-    <navigator url="../campaignList/campaignList" open-type="navigate">
+    <navigator url="../showList/campaignList/campaignList" open-type="navigate">
       <view data-type="{{item.text}}"> 
         <image src="{{item.image}}"/>
       </view>
@@ -37,7 +37,7 @@
 
 
   <block wx:for-items="{{campaign}}" wx:key="item.id"> 
- <navigator url="../act_detail/act_detail?id={{item.id}}" >
+ <navigator url="../showDetial/course/course?id={{item.id}}" >
     <!--课程cell-->
      <view class="item" >
 

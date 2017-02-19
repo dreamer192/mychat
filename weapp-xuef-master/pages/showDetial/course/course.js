@@ -8,6 +8,8 @@ var pos_id = 0;
 var unlearn = 0;
 var flag = false;
 var url = 'https://www.magicpenart.com/develop/campaign/toGet'
+var windowHeight = app.getHeight();
+console.info("detail.js------------"+windowHeight);
 // 获取数据的方法，具体怎么获取列表数据大家自行发挥
 var GetList = function(that){
     that.setData({
@@ -37,15 +39,15 @@ Page({
 
 
 //1. 轮播图片数据
-    imgUrl:'../../image/home_banner1.png',
-    shijianUrl:'../../image/shijian.png',
-    dizhiUrl:'../../image/dizhi.png',
-    jiageUrl:'../../image/jiage.png',
-    title:'北京星众心艺术中心',
-    xingzhongxinUrl:'../../image/xingzhongxin.png',
-    duigouUrl:'../../image/duigou.png',
-    jiaguanzhuUrl:'../../image/jiaguanzhu.png',
-    yiguanzhuUrl:'../../image/yiguanzhu.png',
+    imgUrl:'../../../image/home_banner1.png',
+    shijianUrl:'../../../image/shijian.png',
+    dizhiUrl:'../../../image/dizhi.png',
+    jiageUrl:'../../../image/jiage.png',
+    title:'【北京站】单人油画DIY课程，北京站倾情献出',
+    xingzhongxinUrl:'../../../image/xingzhongxin.png',
+    duigouUrl:'../../../image/duigou.png',
+    jiaguanzhuUrl:'../../../image/jiaguanzhu.png',
+    yiguanzhuUrl:'../../../image/yiguanzhu.png',
 
 //2. 轮播配置
     autoplay:true,

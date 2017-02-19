@@ -2,18 +2,12 @@
     "enablePullDownRefresh": true,
     "pages":[
             "pages/index/index",
-            "pages/campaignList/campaignList",
             "pages/campaign/campaign",
             "pages/me/me",
-            "pages/sponsor/sponsor",
-             "pages/act_detail/act_detail",
-             "pages/test/test",                     
-             "pages/course/course",
-             "pages/msg/msg",
-             "pages/logs/logs",
-             "pages/find/find",
-             "pages/articleList/articleList",
-             "pages/detail/detail"
+            "pages/showList/campaignList/campaignList",
+            "pages/showDetial/sponsor/sponsor",
+            "pages/showDetial/course/course",
+            "pages/logs/logs"
              ],
     "window":{
         "backgroundTextStyle":"light",
