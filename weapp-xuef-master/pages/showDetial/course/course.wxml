@@ -69,12 +69,29 @@
     <view class="manycomm">
            <text hidden="{{commenthidden}}"> {{schoolcoment}}</text>
     </view>
+    
         </scroll-view>
+         <view class="nav">
+    <view class="submitBarleft">
+    <navigator url="../showList/campaignList/campaignList" open-type="navigate">
+      <view> 
+        <image src="../../../image/home_entity.png"/>
+      </view>
+       <text>收藏</text>
+    </navigator>
+    </view>
+    <view class="submitBarright">
+     <navigator url="../showList/campaignList/campaignList" open-type="navigate">
+       <text>立即报名</text>
+    </navigator>
+    </view>
+    </view>
      <view class="body-view">
         <loading hidden="{{hidden}}" bindchange="loadingChange">
             加载中...
         </loading>
     </view>
+
 
 </view>
 
