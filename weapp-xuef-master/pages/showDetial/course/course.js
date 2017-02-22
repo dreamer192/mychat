@@ -146,7 +146,7 @@ schoolcoment:{},
    //   在页面展示之后先获取一次数据
     var that = this;
     this.setData({
-        scrollHeight:app.getHeight()-30
+        scrollHeight:app.getHeight()-40
     });
     },
    bindDownLoad:function(){
